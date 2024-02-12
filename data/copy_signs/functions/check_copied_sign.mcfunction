@@ -1,0 +1,2 @@
+advancement revoke @s only copy_signs:placed_sign
+execute if entity @s[nbt={SelectedItem:{tag:{copied_sign:1b}}}] anchored eyes positioned ^ ^ ^ anchored feet run function copy_signs:change_copied_sign_ray
