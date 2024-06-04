@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_sign"
+      "id": "minecraft:oak_sign"
     },
     "title": "Copy Signs",
-    "description": "Data Pack to copy&paste signs with a trigger command",
+    "description": "Data Pack to copy&paste (hanging) signs with /trigger copy_sign",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false
